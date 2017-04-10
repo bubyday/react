@@ -29,6 +29,8 @@ npm install -g create-react-app
 create-react-app hello-world
 cd hello-world
 npm start
+//这里是主要的创建方法
+
 ```
 
 Create React App doesn't handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. It uses [webpack](https://webpack.js.org/), [Babel](http://babeljs.io/) and [ESLint](http://eslint.org/) under the hood, but configures them for you.
@@ -54,6 +56,8 @@ To install React with Yarn, run:
 ```bash
 yarn init
 yarn add react react-dom
+
+
 ```
 
 To install React with npm, run:
